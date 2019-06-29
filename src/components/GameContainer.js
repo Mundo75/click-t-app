@@ -15,9 +15,10 @@ class GameContainer extends Component {
         };
     }
 
-    handleClick = e => {
+   
+    handleClick = event => {
 
-        let id = e.target.id;
+        let id = event.target.id;
         let exists = false;
 
         this.state.selectedMrt.forEach(mrt => {
@@ -73,6 +74,11 @@ class GameContainer extends Component {
                               handleClick={this.handleClick} 
                               score={this.state.score} />)};
                 </div>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+
             </div>
         );
     };

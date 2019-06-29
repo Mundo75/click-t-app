@@ -6,7 +6,7 @@ import GameContainer from "./components/GameContainer";
 
 class App extends Component {
 
-    state = {
+        state = {
         count: 0,
         topScore: 0
     };

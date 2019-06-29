@@ -21,8 +21,18 @@ body {
   margin-top: 120px;
 }
 
-.card {
+#game {
   width: 200px;
+  height: 200px;
+  padding: 5px;
+  margin: 10px 0px 10px 0px;
+  
+}
+
+.gamePic {
+  width: 200px;
+  height: 200px;
+  margin: 5px;
   border: solid 5px gold;
 }
 
